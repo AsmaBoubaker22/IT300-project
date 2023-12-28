@@ -1,0 +1,724 @@
+<MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xalan="http://xml.apache.org/xalan" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.isotc211.org/2005/gmd">
+<fileIdentifier>
+<gco:CharacterString>27EF1656-D571-42E9-9E9C-49699AF25B4A</gco:CharacterString>
+</fileIdentifier>
+<language>
+<LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+</language>
+<characterSet>
+<MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+</characterSet>
+<hierarchyLevel>
+<MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+</hierarchyLevel>
+<hierarchyLevelName>
+<gco:CharacterString>dataset</gco:CharacterString>
+</hierarchyLevelName>
+<contact>
+<CI_ResponsibleParty>
+<individualName>
+<gco:CharacterString>National Mine Map Repository</gco:CharacterString>
+</individualName>
+<organisationName>
+<gco:CharacterString>Office of Surface Mining Reclamation and Enforcement</gco:CharacterString>
+</organisationName>
+<contactInfo>
+<CI_Contact>
+<address>
+<CI_Address>
+<deliveryPoint>
+<gco:CharacterString>3 Parkway Center Dr</gco:CharacterString>
+</deliveryPoint>
+<city>
+<gco:CharacterString>Pittsburgh</gco:CharacterString>
+</city>
+<administrativeArea>
+<gco:CharacterString>PA</gco:CharacterString>
+</administrativeArea>
+<postalCode>
+<gco:CharacterString>15220</gco:CharacterString>
+</postalCode>
+<country>
+<Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+</country>
+<electronicMailAddress>
+<gco:CharacterString>gis@osmre.gov</gco:CharacterString>
+</electronicMailAddress>
+</CI_Address>
+</address>
+</CI_Contact>
+</contactInfo>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115">publisher</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</contact>
+<contact>
+<CI_ResponsibleParty>
+<individualName>
+<gco:CharacterString>Beth Spindler</gco:CharacterString>
+</individualName>
+<organisationName>
+<gco:CharacterString>Office of Surface Mining Reclamation and Enforcement - National Mine Map Repository</gco:CharacterString>
+</organisationName>
+<positionName>
+<gco:CharacterString>Program Specialist</gco:CharacterString>
+</positionName>
+<contactInfo>
+<CI_Contact>
+<phone>
+<CI_Telephone>
+<voice>
+<gco:CharacterString>412-937-2845</gco:CharacterString>
+</voice>
+</CI_Telephone>
+</phone>
+<address>
+<CI_Address>
+<deliveryPoint>
+<gco:CharacterString>3 Parkway Center Dr S</gco:CharacterString>
+</deliveryPoint>
+<city>
+<gco:CharacterString>Pittsburgh</gco:CharacterString>
+</city>
+<administrativeArea>
+<gco:CharacterString>PA</gco:CharacterString>
+</administrativeArea>
+<postalCode>
+<gco:CharacterString>15220</gco:CharacterString>
+</postalCode>
+<country>
+<Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+</country>
+<electronicMailAddress>
+<gco:CharacterString>espindler@osmre.gov</gco:CharacterString>
+</electronicMailAddress>
+</CI_Address>
+</address>
+</CI_Contact>
+</contactInfo>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</contact>
+<dateStamp>
+<gco:Date>2022-06-16</gco:Date>
+</dateStamp>
+<metadataStandardName>
+<gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+</metadataStandardName>
+<metadataStandardVersion>
+<gco:CharacterString>2007</gco:CharacterString>
+</metadataStandardVersion>
+<dataSetURI>
+<gco:CharacterString>https://geoservices.osmre.gov/arcgis/rest/services/GeoMine/NationalMineMapRepository_OSMRE/FeatureServer/info/metadata?format=iso19139</gco:CharacterString>
+</dataSetURI>
+<spatialRepresentationInfo>
+<MD_VectorSpatialRepresentation>
+<topologyLevel>
+<MD_TopologyLevelCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115">geometryOnly</MD_TopologyLevelCode>
+</topologyLevel>
+<geometricObjects>
+<MD_GeometricObjects>
+<geometricObjectType>
+<MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115">point</MD_GeometricObjectTypeCode>
+</geometricObjectType>
+<geometricObjectCount>
+<gco:Integer>243357</gco:Integer>
+</geometricObjectCount>
+</MD_GeometricObjects>
+</geometricObjects>
+</MD_VectorSpatialRepresentation>
+</spatialRepresentationInfo>
+<referenceSystemInfo>
+<MD_ReferenceSystem>
+<referenceSystemIdentifier>
+<RS_Identifier>
+<code>
+<gco:CharacterString>4326</gco:CharacterString>
+</code>
+<codeSpace>
+<gco:CharacterString>EPSG</gco:CharacterString>
+</codeSpace>
+<version>
+<gco:CharacterString>6.2(3.0.1)</gco:CharacterString>
+</version>
+</RS_Identifier>
+</referenceSystemIdentifier>
+</MD_ReferenceSystem>
+</referenceSystemInfo>
+<identificationInfo>
+<MD_DataIdentification>
+<citation>
+<CI_Citation>
+<title>
+<gco:CharacterString>National Mine Map Repository</gco:CharacterString>
+</title>
+<date>
+<CI_Date>
+<date>
+<gco:Date>2017-12-11</gco:Date>
+</date>
+<dateType>
+<CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+</dateType>
+</CI_Date>
+</date>
+<identifier>
+<MD_Identifier>
+<code>
+<gco:CharacterString>27EF1656-D571-42E9-9E9C-49699AF25B4A</gco:CharacterString>
+</code>
+</MD_Identifier>
+</identifier>
+<citedResponsibleParty>
+<CI_ResponsibleParty>
+<individualName>
+<gco:CharacterString>National Mine Map Repository</gco:CharacterString>
+</individualName>
+<organisationName>
+<gco:CharacterString>Office of Surface Mining Reclamation and Enforcement</gco:CharacterString>
+</organisationName>
+<contactInfo>
+<CI_Contact>
+<address>
+<CI_Address>
+<deliveryPoint>
+<gco:CharacterString>3 Parkway Center Dr</gco:CharacterString>
+</deliveryPoint>
+<city>
+<gco:CharacterString>Pittsburgh</gco:CharacterString>
+</city>
+<administrativeArea>
+<gco:CharacterString>PA</gco:CharacterString>
+</administrativeArea>
+<postalCode>
+<gco:CharacterString>15220</gco:CharacterString>
+</postalCode>
+<country>
+<Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+</country>
+<electronicMailAddress>
+<gco:CharacterString>gis@osmre.gov</gco:CharacterString>
+</electronicMailAddress>
+</CI_Address>
+</address>
+</CI_Contact>
+</contactInfo>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115">publisher</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</citedResponsibleParty>
+<presentationForm>
+<CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
+</presentationForm>
+<otherCitationDetails>
+<gco:CharacterString>Updated weekly beginning in 2017</gco:CharacterString>
+</otherCitationDetails>
+</CI_Citation>
+</citation>
+<abstract>
+<gco:CharacterString>The National Mine Map Repository (NMMR) maintains point locations for mines appearing on maps within its archive. This dataset is intended to help connect the Office of Surface Mining Reclamation &amp;amp; Enforcement, other federal, state, and local government agencies, private industry, and the general public with archived mine maps in the NMMR's collection. The coordinates for mine point locations represent the best information the NMMR has for the location of the mine. As much as possible, the NMMR strives to find precise locations for all historic mines appearing on mine maps. When this is not possible, another feature as close to the mine as is known is used. This information is reflected in the mine point symbols. However, the NMMR cannot guarantee the accuracy of mine point locations or any other information on or derived from mine maps.The NMMR is part of the United States Department of the Interior, Office of Surface Mining Reclamation and Enforcement (OSMRE). The mission of the NMMR is to preserve abandoned mine maps, to correlate those maps to the surface topography, and to provide the public with quality map products and services. It serves as a point of reference for maps and other information on surface and underground coal, metal, and non-metal mines from throughout the United States. It also serves as a location to retrieve mine maps in an emergency. Some of the information that can be found in the repository includes:Mine and company names, Mine plans including mains, rooms, and pillars, Man-ways, shafts, and mine surface openings. Geological information such as coal bed names, bed thicknesses, bed depths and elevations, bed outcrops, drill-hole data, cross-sections, stratigraphic columns, and mineral assays. Geographical information including historic railroad lines, roads, coal towns, surface facilities and structures, ponds, streams, and property survey lines, gas well and drill-hole locations. Please note: Map images are not available for download from this dataset. They can be requested by contacting NMMR staff and providing them with the desired Document Numbers. NMMR staff also have additional search capabilities and can fulfill more complex requests if necessary. See the NMMR website homepage for contact information: https://www.osmre.gov/programs/national-mine-map-repositoryThere is no charge for noncommercial use of the maps. Commercial uses will incur a $46/hour research fee for fulfilling requests.</gco:CharacterString>
+</abstract>
+<purpose>
+<gco:CharacterString>The National Mine Map Repository has archived over 150,000 mine maps on microfilm and digital file formats. Every mine on a map is given a set of coordinates that represents the best information the NMMR has for the location of the mine. This dataset is intended to help connect the Office of Surface Mining Reclamation & Enforcement, other federal, state, and local government agencies, private industry, and the general public with archived mine maps in the NMMR's collection.</gco:CharacterString>
+</purpose>
+<credit>
+<gco:CharacterString>National Mine Map Repository (NMMR). Mine locations are derived from a variety of sources. For additional information on the sourcing of specific map points, view the Remarks field available at the NMMR public database search (https://mmr.osmre.gov/MultiPub.aspx). Please note that data classified as "Legacy" may not be reflective of current standards of data collection.</gco:CharacterString>
+</credit>
+<pointOfContact>
+<CI_ResponsibleParty>
+<individualName>
+<gco:CharacterString>National Mine Map Repository</gco:CharacterString>
+</individualName>
+<organisationName>
+<gco:CharacterString>Office of Surface Mining Reclamation and Enforcement</gco:CharacterString>
+</organisationName>
+<contactInfo>
+<CI_Contact>
+<address>
+<CI_Address>
+<deliveryPoint>
+<gco:CharacterString>3 Parkway Center Dr</gco:CharacterString>
+</deliveryPoint>
+<city>
+<gco:CharacterString>Pittsburgh</gco:CharacterString>
+</city>
+<administrativeArea>
+<gco:CharacterString>PA</gco:CharacterString>
+</administrativeArea>
+<postalCode>
+<gco:CharacterString>15220</gco:CharacterString>
+</postalCode>
+<country>
+<Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+</country>
+<electronicMailAddress>
+<gco:CharacterString>gis@osmre.gov</gco:CharacterString>
+</electronicMailAddress>
+</CI_Address>
+</address>
+</CI_Contact>
+</contactInfo>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115">publisher</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</pointOfContact>
+<pointOfContact>
+<CI_ResponsibleParty>
+<individualName>
+<gco:CharacterString>Beth Spindler</gco:CharacterString>
+</individualName>
+<organisationName>
+<gco:CharacterString>Office of Surface Mining Reclamation and Enforcement - National Mine Map Repository</gco:CharacterString>
+</organisationName>
+<positionName>
+<gco:CharacterString>Program Specialist</gco:CharacterString>
+</positionName>
+<contactInfo>
+<CI_Contact>
+<phone>
+<CI_Telephone>
+<voice>
+<gco:CharacterString>412-937-2845</gco:CharacterString>
+</voice>
+</CI_Telephone>
+</phone>
+<address>
+<CI_Address>
+<deliveryPoint>
+<gco:CharacterString>3 Parkway Center Dr S</gco:CharacterString>
+</deliveryPoint>
+<city>
+<gco:CharacterString>Pittsburgh</gco:CharacterString>
+</city>
+<administrativeArea>
+<gco:CharacterString>PA</gco:CharacterString>
+</administrativeArea>
+<postalCode>
+<gco:CharacterString>15220</gco:CharacterString>
+</postalCode>
+<country>
+<Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+</country>
+<electronicMailAddress>
+<gco:CharacterString>espindler@osmre.gov</gco:CharacterString>
+</electronicMailAddress>
+</CI_Address>
+</address>
+</CI_Contact>
+</contactInfo>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</pointOfContact>
+<pointOfContact>
+<CI_ResponsibleParty>
+<individualName>
+<gco:CharacterString>National Mine Map Repository</gco:CharacterString>
+</individualName>
+<organisationName>
+<gco:CharacterString>Office of Surface Mining Reclamation and Enforcement</gco:CharacterString>
+</organisationName>
+<contactInfo>
+<CI_Contact>
+<address>
+<CI_Address>
+<deliveryPoint>
+<gco:CharacterString>3 Parkway Center Dr</gco:CharacterString>
+</deliveryPoint>
+<city>
+<gco:CharacterString>Pittsburgh</gco:CharacterString>
+</city>
+<administrativeArea>
+<gco:CharacterString>PA</gco:CharacterString>
+</administrativeArea>
+<postalCode>
+<gco:CharacterString>15220</gco:CharacterString>
+</postalCode>
+<country>
+<Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+</country>
+<electronicMailAddress>
+<gco:CharacterString>gis@osmre.gov</gco:CharacterString>
+</electronicMailAddress>
+</CI_Address>
+</address>
+</CI_Contact>
+</contactInfo>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</pointOfContact>
+<pointOfContact>
+<CI_ResponsibleParty>
+<individualName>
+<gco:CharacterString>National Mine Map Repository</gco:CharacterString>
+</individualName>
+<organisationName>
+<gco:CharacterString>Office of Surface Mining Reclamation and Enforcement</gco:CharacterString>
+</organisationName>
+<contactInfo>
+<CI_Contact>
+<address>
+<CI_Address>
+<deliveryPoint>
+<gco:CharacterString>3 Parkway Center Dr</gco:CharacterString>
+</deliveryPoint>
+<city>
+<gco:CharacterString>Pittsburgh</gco:CharacterString>
+</city>
+<administrativeArea>
+<gco:CharacterString>PA</gco:CharacterString>
+</administrativeArea>
+<postalCode>
+<gco:CharacterString>15220</gco:CharacterString>
+</postalCode>
+<country>
+<Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+</country>
+<electronicMailAddress>
+<gco:CharacterString>gis@osmre.gov</gco:CharacterString>
+</electronicMailAddress>
+</CI_Address>
+</address>
+</CI_Contact>
+</contactInfo>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" codeSpace="ISOTC211/19115">custodian</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</pointOfContact>
+<resourceMaintenance>
+<MD_MaintenanceInformation>
+<maintenanceAndUpdateFrequency>
+<MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="weekly" codeSpace="ISOTC211/19115">weekly</MD_MaintenanceFrequencyCode>
+</maintenanceAndUpdateFrequency>
+</MD_MaintenanceInformation>
+</resourceMaintenance>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>environment</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>geoscientificInformation</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+<thesaurusName>
+<CI_Citation>
+<title>
+<gco:CharacterString>ISO 19115 Topic Categories</gco:CharacterString>
+</title>
+<date>
+<CI_Date>
+<date>
+<gco:Date>2017-12-11</gco:Date>
+</date>
+<dateType>
+<CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+</dateType>
+</CI_Date>
+</date>
+</CI_Citation>
+</thesaurusName>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>environment</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>geoscientificInformation</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+<thesaurusName>
+<CI_Citation>
+<title>
+<gco:CharacterString>ISO 19115 Topic Categories</gco:CharacterString>
+</title>
+<date>
+<CI_Date>
+<date>
+<gco:Date>2017-12-11</gco:Date>
+</date>
+<dateType>
+<CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+</dateType>
+</CI_Date>
+</date>
+</CI_Citation>
+</thesaurusName>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>environment, geoscientificInformation, National Mine Map Repository, NMMR, Office of Surface Mining Reclamation and Enforcement, OSMRE, Department of the Interior, DOI, United States, mines, mining, coal, hardrock, anthracite, bituminous, iron, gold, copper, lead, zinc, silver, mica, clay, fluorite, uranium, feldspar, manganese, tungsten, aluminum, shale, mercury, limestone, portals, mine centers, mining locations, geology, geoscience, mine maps, maps, cross-sections, location maps, claims, claim maps, mining claims, mining property, property maps</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<resourceConstraints>
+<MD_Constraints>
+<useLimitation>
+<gco:CharacterString>Disclaimer Notice Mine maps within the National Mine Map Repository (NMMR) are not guaranteed to be accurate, correct, or complete. These maps have been donated to the Office of Surface Mining Reclamation and Enforcement (OSMRE) from various sources. The mines, streets, surfaces features, and coal elevations cannot be verified. OSMRE does not warrant the accuracy of the mine maps within the NMMR, nor the reliability of the findings based upon the data from the maps or digital mapping programs.The quality of the NMMR’s images depends greatly on the quality of the original document or microfilm image from which the images are made.The best attempts have been made to improve any faults on poor quality originals without compromising the integrity of the image or information that may be drawn from it.Scans may be made available upon request so that customers may improve upon the images to meet their individual needs.</gco:CharacterString>
+</useLimitation>
+</MD_Constraints>
+</resourceConstraints>
+<resourceConstraints>
+<MD_LegalConstraints>
+<accessConstraints>
+<MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+</accessConstraints>
+<useConstraints>
+<MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+</useConstraints>
+<otherConstraints>
+<gco:CharacterString>Data is available via the NMMR Database Search page; map images and complex requests are available by request.</gco:CharacterString>
+</otherConstraints>
+</MD_LegalConstraints>
+</resourceConstraints>
+<spatialRepresentationType>
+<MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115">vector</MD_SpatialRepresentationTypeCode>
+</spatialRepresentationType>
+<language>
+<LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+</language>
+<characterSet>
+<MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+</characterSet>
+<topicCategory>
+<MD_TopicCategoryCode>location</MD_TopicCategoryCode>
+</topicCategory>
+<topicCategory>
+<MD_TopicCategoryCode>environment</MD_TopicCategoryCode>
+</topicCategory>
+<topicCategory>
+<MD_TopicCategoryCode>geoscientificInformation</MD_TopicCategoryCode>
+</topicCategory>
+<environmentDescription>
+<gco:CharacterString>Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.1.9270</gco:CharacterString>
+</environmentDescription>
+<extent>
+<EX_Extent>
+<geographicElement>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>
+<gco:Decimal>-177.455</gco:Decimal>
+</westBoundLongitude>
+<eastBoundLongitude>
+<gco:Decimal>177.946</gco:Decimal>
+</eastBoundLongitude>
+<southBoundLatitude>
+<gco:Decimal>-90</gco:Decimal>
+</southBoundLatitude>
+<northBoundLatitude>
+<gco:Decimal>83.8706</gco:Decimal>
+</northBoundLatitude>
+</EX_GeographicBoundingBox>
+</geographicElement>
+</EX_Extent>
+</extent>
+<extent>
+<EX_Extent>
+<geographicElement>
+<EX_GeographicBoundingBox>
+<extentTypeCode>
+<gco:Boolean>true</gco:Boolean>
+</extentTypeCode>
+<westBoundLongitude>
+<gco:Decimal>-177.455</gco:Decimal>
+</westBoundLongitude>
+<eastBoundLongitude>
+<gco:Decimal>177.946</gco:Decimal>
+</eastBoundLongitude>
+<southBoundLatitude>
+<gco:Decimal>-90</gco:Decimal>
+</southBoundLatitude>
+<northBoundLatitude>
+<gco:Decimal>83.8706</gco:Decimal>
+</northBoundLatitude>
+</EX_GeographicBoundingBox>
+</geographicElement>
+</EX_Extent>
+</extent>
+<extent>
+<EX_Extent>
+<geographicElement>
+<EX_GeographicBoundingBox>
+<extentTypeCode>
+<gco:Boolean>true</gco:Boolean>
+</extentTypeCode>
+<westBoundLongitude>
+<gco:Decimal>-177.4551</gco:Decimal>
+</westBoundLongitude>
+<eastBoundLongitude>
+<gco:Decimal>177.9465</gco:Decimal>
+</eastBoundLongitude>
+<southBoundLatitude>
+<gco:Decimal>-89.99997</gco:Decimal>
+</southBoundLatitude>
+<northBoundLatitude>
+<gco:Decimal>83.87056</gco:Decimal>
+</northBoundLatitude>
+</EX_GeographicBoundingBox>
+</geographicElement>
+</EX_Extent>
+</extent>
+</MD_DataIdentification>
+</identificationInfo>
+<distributionInfo>
+<MD_Distribution>
+<distributionFormat>
+<MD_Format>
+<name>
+<gco:CharacterString>HTML</gco:CharacterString>
+</name>
+<version>
+<gco:CharacterString>5</gco:CharacterString>
+</version>
+</MD_Format>
+</distributionFormat>
+<transferOptions>
+<MD_DigitalTransferOptions/>
+</transferOptions>
+<transferOptions>
+<MD_DigitalTransferOptions/>
+</transferOptions>
+</MD_Distribution>
+</distributionInfo>
+<dataQualityInfo>
+<DQ_DataQuality>
+<scope>
+<DQ_Scope>
+<level>
+<MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+</level>
+</DQ_Scope>
+</scope>
+<report>
+<DQ_CompletenessOmission>
+<measureDescription>
+<gco:CharacterString>Development of these data are ongoing. Document numbers identified as "Legacy," for the most part, represent data that met NMMR standards at one time but have not been checked against current standards. However, it also includes data from many different sources and time periods, and as a result, may not be as complete, standardized, or thorough as “Complete” data, and the definitions for terms used in various fields may have different meanings than in the current standards.</gco:CharacterString>
+</measureDescription>
+<evaluationMethodType>
+<DQ_EvaluationMethodTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DQ_EvaluationMethodTypeCode" codeListValue="directInternal" codeSpace="ISOTC211/19115">directInternal</DQ_EvaluationMethodTypeCode>
+</evaluationMethodType>
+<result>
+<DQ_ConformanceResult>
+<specification>
+<CI_Citation>
+<title>
+<gco:CharacterString>Data Completeness</gco:CharacterString>
+</title>
+<date>
+<CI_Date>
+<date>
+<gco:Date>2017-12-11</gco:Date>
+</date>
+<dateType>
+<CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+</dateType>
+</CI_Date>
+</date>
+</CI_Citation>
+</specification>
+<explanation>
+<gco:CharacterString>Efforts are made to ensure that data are as complete as possible, but as many of the original data sources are historic maps, certain information is not available.</gco:CharacterString>
+</explanation>
+<pass>
+<gco:Boolean>true</gco:Boolean>
+</pass>
+</DQ_ConformanceResult>
+</result>
+</DQ_CompletenessOmission>
+</report>
+<lineage>
+<LI_Lineage>
+<statement>
+<gco:CharacterString>The National Mine Map Repository (NMMR) collects and maintains mine map information for the entire country. NMMR acquires maps through public outreach with state and federal environmental agencies as well as mining companies, engineering and consulting firms, surveying companies, universities, and private citizens. The Federal Coal Mine Health and Safety Act of 1969 established the Mine Map Repository. The facility stores over 150,000 maps of closed and/or abandoned, surface, and underground mines throughout the United States. The repository contains mines from the 1790s to the present day. These maps are archived digitally and on microfilm (aperture cards). The index system allows visitors to search the database listing of mine maps available through the NMMR.</gco:CharacterString>
+</statement>
+</LI_Lineage>
+</lineage>
+</DQ_DataQuality>
+</dataQualityInfo>
+<metadataConstraints>
+<MD_Constraints>
+<useLimitation>
+<gco:CharacterString>Disclaimer Notice: Mine maps within the National Mine Map Repository (NMMR) are not guaranteed to be accurate, correct, or complete. These maps have been donated to the Office of Surface Mining Reclamation and Enforcement (OSMRE) from various sources. The mines, streets, surfaces features, and coal elevations cannot be verified. OSMRE does not warrant the accuracy of the mine maps within the NMMR, nor the reliability of the findings based upon the data from the maps or digital mapping programs. The quality of the NMMR’s images depends greatly on the quality of the original document or microfilm image from which the images are made. The best attempts have been made to improve any faults on poor quality originals without compromising the integrity of the image or information that may be drawn from it. Scans may be made available upon request so that customers may improve upon the images to meet their individual needs.</gco:CharacterString>
+</useLimitation>
+</MD_Constraints>
+</metadataConstraints>
+<metadataConstraints>
+<MD_LegalConstraints>
+<accessConstraints>
+<MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+</accessConstraints>
+<useConstraints>
+<MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+</useConstraints>
+<otherConstraints>
+<gco:CharacterString>Data is available via the NMMR Database Search page; map images and complex requests are available by request.</gco:CharacterString>
+</otherConstraints>
+</MD_LegalConstraints>
+</metadataConstraints>
+<metadataMaintenance>
+<MD_MaintenanceInformation>
+<maintenanceAndUpdateFrequency>
+<MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="ISOTC211/19115">asNeeded</MD_MaintenanceFrequencyCode>
+</maintenanceAndUpdateFrequency>
+<contact>
+<CI_ResponsibleParty>
+<individualName>
+<gco:CharacterString>National Mine Map Repository</gco:CharacterString>
+</individualName>
+<organisationName>
+<gco:CharacterString>Office of Surface Mining Reclamation and Enforcement</gco:CharacterString>
+</organisationName>
+<contactInfo>
+<CI_Contact>
+<address>
+<CI_Address>
+<deliveryPoint>
+<gco:CharacterString>3 Parkway Center Dr</gco:CharacterString>
+</deliveryPoint>
+<city>
+<gco:CharacterString>Pittsburgh</gco:CharacterString>
+</city>
+<administrativeArea>
+<gco:CharacterString>PA</gco:CharacterString>
+</administrativeArea>
+<postalCode>
+<gco:CharacterString>15220</gco:CharacterString>
+</postalCode>
+<country>
+<Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+</country>
+<electronicMailAddress>
+<gco:CharacterString>gis@osmre.gov</gco:CharacterString>
+</electronicMailAddress>
+</CI_Address>
+</address>
+</CI_Contact>
+</contactInfo>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115">publisher</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</contact>
+</MD_MaintenanceInformation>
+</metadataMaintenance>
+</MD_Metadata>
