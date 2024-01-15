@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x2="urn:schemas-microsoft-com:office:excel2" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+ <x:ExcelWorkbook>
+  <x:ActiveSheet>0</x:ActiveSheet>
+ </x:ExcelWorkbook>
+ <o:DocumentProperties>
+  <o:Author>kenza Bacha</o:Author>
+  <o:Created>2024-01-15T22:38:45Z</o:Created>
+  <o:LastSaved>2024-01-15T23:01:51Z</o:LastSaved>
+ </o:DocumentProperties>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:Color="#000000" ss:FontName="Calibri" ss:Size="11" />
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <ss:Names />
+  <ss:Table ss:DefaultRowHeight="14.6" ss:DefaultColumnWidth="48" ss:ExpandedRowCount="53" ss:ExpandedColumnCount="2">
+   <Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="138.75" />
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="86.25" />
+   <Row ss:Index="1">
+    <Cell><Data ss:Type="String">state</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">GDP</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="2">
+    <Cell><Data ss:Type="String">District_of_Columbia</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">192419.79999999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="3">
+    <Cell><Data ss:Type="String">New York</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">79434.449999999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="4">
+    <Cell><Data ss:Type="String">Massachusetts</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">77896.550000000003</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell><Data ss:Type="String">Washington</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">74773.649999999994</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="6">
+    <Cell><Data ss:Type="String">California</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">73934.820000000007</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="7">
+    <Cell><Data ss:Type="String">Connecticut</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">69641.210000000006</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="8">
+    <Cell><Data ss:Type="String">North_Dakota</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">68174.080000000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="9">
+    <Cell><Data ss:Type="String">Alaska</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">67659.279999999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="10">
+    <Cell><Data ss:Type="String">Colorado</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">66068.440000000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="11">
+    <Cell><Data ss:Type="String">Delaware</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">64567.029999999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="12">
+    <Cell><Data ss:Type="String">Illinois</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">63421.32</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="13">
+    <Cell><Data ss:Type="String">New Jersey</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">628807.5</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="14">
+    <Cell><Data ss:Type="String">Nebraska</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">62776.639999999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="15">
+    <Cell><Data ss:Type="String">Wyoming</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">62516.830000000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="16">
+    <Cell><Data ss:Type="String">Texas</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">62482.669999999998</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="17">
+    <Cell><Data ss:Type="String">Minnesota</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">61273.959999999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="18">
+    <Cell><Data ss:Type="String">United_States </Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">60050.629999999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="19">
+    <Cell><Data ss:Type="String">Mzryland</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">59805.370000000003</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="20">
+    <Cell><Data ss:Type="String">New_Hampshire</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">59491.510000000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="21">
+    <Cell><Data ss:Type="String">Virginia</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">59070.57</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="22">
+    <Cell><Data ss:Type="String">Utah</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">56781</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="23">
+    <Cell><Data ss:Type="String">Kansas</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">56156.239999999998</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="24">
+    <Cell><Data ss:Type="String">Pennsylvania</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">55969.410000000003</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="25">
+    <Cell><Data ss:Type="String">Oregon</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">55377.029999999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="26">
+    <Cell><Data ss:Type="String">Lowa</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">55331.690000000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="27">
+    <Cell><Data ss:Type="String">South_Dakota</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">54745.970000000001</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="28">
+    <Cell><Data ss:Type="String">Ohio</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">54347.300000000003</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="29">
+    <Cell><Data ss:Type="String">Georgia</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">54179.790000000001</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="30">
+    <Cell><Data ss:Type="String">Wisconsin</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">52897.760000000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="31">
+    <Cell><Data ss:Type="String">Hawaii</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">52366.690000000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="32">
+    <Cell><Data ss:Type="String">North_Carolina</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">52295.68</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="33">
+    <Cell><Data ss:Type="String">Tennessee</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">52165.900000000001</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="34">
+    <Cell><Data ss:Type="String">Nevada</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">52066.379999999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="35">
+    <Cell><Data ss:Type="String">Indiana</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">51654.32</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="36">
+    <Cell><Data ss:Type="String">Rhode_Island</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">50664.330000000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="37">
+    <Cell><Data ss:Type="String">Michigan</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">48865.120000000003</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="38">
+    <Cell><Data ss:Type="String">Missouri</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">48669.209999999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="39">
+    <Cell><Data ss:Type="String">Vermont</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">48519.620000000003</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="40">
+    <Cell><Data ss:Type="String">Arizona</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">48431.510000000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="41">
+    <Cell><Data ss:Type="String">Florida</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">48142.900000000001</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="42">
+    <Cell><Data ss:Type="String">Oklahoma</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">47611.349999999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="43">
+    <Cell><Data ss:Type="String">Louisiana</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">4730.1499999999996</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="44">
+    <Cell><Data ss:Type="String">Maine</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">46750.620000000003</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="45">
+    <Cell><Data ss:Type="String">New_Mexico</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">44793.18</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="46">
+    <Cell><Data ss:Type="String">Kentucky</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">44627.980000000003</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="47">
+    <Cell><Data ss:Type="String">Montana</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">44308.190000000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="48">
+    <Cell><Data ss:Type="String">Idaho</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">43322.059999999998</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="49">
+    <Cell><Data ss:Type="String">South_Carolina</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">42861.209999999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="50">
+    <Cell><Data ss:Type="String">Alabama</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">42028.449999999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="51">
+    <Cell><Data ss:Type="String">Arkansas</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">41545.400000000001</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="52">
+    <Cell><Data ss:Type="String">West_Viginia</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40364</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="53">
+    <Cell><Data ss:Type="String">Mississippi</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">35555.540000000001</Data>
+    </Cell>
+   </Row>
+  </ss:Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3" />
+    <Footer x:Margin="0.3" />
+    <PageMargins x:Top="0.75" x:Bottom="0.75" x:Left="0.7" x:Right="0.7" />
+   </PageSetup>
+   <Print>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R1C2</RangeSelection>
+    </Pane>
+   </Panes>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
