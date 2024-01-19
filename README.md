@@ -6,7 +6,8 @@ Company Departments: marketing - finance - resource development
       RARE is a jewellery chain that runs a number of stores in several US states, where it is known for offering luxury products crafted with diamonds and gold. The group's main  departments are marketing, finance and resources.
 At each period of the year, this famous group tries to analyze its business process in order to set new objectives for the following period .
 
-The different departments are trying to answer those questions: \n
+The different departments are trying to answer those questions:
+
 #1-Which store should the company close in the different states or  Is it a suitable strategy to expand into new states? Which store generates the best profit and the company should allocate more resources to it? (fact_sales / dim_stores / dim_state)
 #2- what is the most profitable day of the week? Does the company sell more before or after the Christmas Holidays? (fact_sales)
 #3-which product should be sold in which state ? What are the most demanded products in each store ?  (fact_sales / dim_stores / dim_products) 
