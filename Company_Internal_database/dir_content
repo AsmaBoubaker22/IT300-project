@@ -1,0 +1,6 @@
+this directory contains all internal resources used for the project:
+
+  - data available to import to the database SQL ORACLE SERVER in (xlsx)
+  - creation of db and tables (SQL files)
+
+in SQL DEVELOPER
