@@ -1,0 +1,46 @@
+FACT_SALES
+MEASURES:Price
+         Cost
+         Profit
+         Type
+DIMENSIONS:
+ DIM_CUSTOMERS:
+                Customer_ID
+                name
+                Customer_Age
+                Gender
+                Education_Level
+                Marital_Status
+                Income_Category
+                State
+DIM_STATE:
+                State
+                GDP
+DIM_STORES:
+                store_ID
+                State
+               material_ID
+               Date_p
+               Price
+               High 
+               Low
+               change
+DIM_PRODUCTS:
+               Product_ID
+               category
+               title
+               Price_raw
+               Quantity
+DIM_TIME:
+               date_trans
+               Day
+               day_of_week
+               month
+               month_alpha
+               Year
+
+
+
+
+
+
