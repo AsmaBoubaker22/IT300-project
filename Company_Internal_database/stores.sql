@@ -1,0 +1,47 @@
+--------------------------------------------------------
+--  Fichier créé - lundi-janvier-15-2024   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table STORES
+--------------------------------------------------------
+
+  CREATE TABLE "SYS"."STORES" 
+   (	"STORE_ID" NUMBER(38,0), 
+	"STATE" VARCHAR2(26 BYTE), 
+	"NB_EMPLOYEES" NUMBER(38,0)
+   ) PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+REM INSERTING into SYS.STORES
+SET DEFINE OFF;
+Insert into SYS.STORES (STORE_ID,STATE,NB_EMPLOYEES) values ('8697','California','3');
+Insert into SYS.STORES (STORE_ID,STATE,NB_EMPLOYEES) values ('1484','Hawaii','10');
+Insert into SYS.STORES (STORE_ID,STATE,NB_EMPLOYEES) values ('6812','Massachusetts','9');
+Insert into SYS.STORES (STORE_ID,STATE,NB_EMPLOYEES) values ('6711','Georgia','4');
+Insert into SYS.STORES (STORE_ID,STATE,NB_EMPLOYEES) values ('6803','Washington','7');
+Insert into SYS.STORES (STORE_ID,STATE,NB_EMPLOYEES) values ('8333','Colorado','3');
+Insert into SYS.STORES (STORE_ID,STATE,NB_EMPLOYEES) values ('4497','New York','2');
+Insert into SYS.STORES (STORE_ID,STATE,NB_EMPLOYEES) values ('5642','New jersey','9');
+--------------------------------------------------------
+--  DDL for Index STORE_ID
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "SYS"."STORE_ID" ON "SYS"."STORES" ("STORE_ID") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+--------------------------------------------------------
+--  Constraints for Table STORES
+--------------------------------------------------------
+
+  ALTER TABLE "SYS"."STORES" ADD CONSTRAINT "STORE_ID" PRIMARY KEY ("STORE_ID")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM"  ENABLE;
