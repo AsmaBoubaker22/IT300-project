@@ -43,9 +43,9 @@ Prepared by:
 ASMA BOUBAKER
 KENZA BACHA
 YOSR JAOUADI
-#Db (internal) of the company:
 
-
+MAJOR: BA
+MINOR: IT
 
 
 
