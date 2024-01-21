@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="snowflake" id="756AA36E-BD4D-E049-B2E7-47467F563B03" version="3.5">
+<createdBy>asmab</createdBy>
+<createdTime>2024-01-19 11:14:51 UTC</createdTime>
+<ownerDesignName>ROLAP</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>756AA36E-BD4D-E049-B2E7-47467F563B03</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="DCFAD087-1453-A675-074F-17B18B3FC02D">
+<designStoragePath>D:\ROLAP</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
