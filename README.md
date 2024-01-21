@@ -17,7 +17,14 @@ The different departments are trying to answer those questions:
 
 Business process to analyze: Sales
 
-2. Data and resources gathering:
+=====> you can find all details of the project in the GOLD DEALER PDF .
+
+
+
+Prepared by:
+ASMA BOUBAKER
+KENZA BACHA
+YOSR JAOUADI
 #Db (internal) of the company:
 
 
