@@ -3,7 +3,7 @@
 1. Subject and requirement gathering : 
 Company Departments: marketing - finance - resource development
 
-      RARE is a jewellery chain that runs a number of stores in several US states, where it is known for offering luxury products crafted with diamonds and gold. The group's main  departments are marketing, finance and resources.
+      GOLD DEALER is a jewellery chain that runs a number of stores in several US states, where it is known for offering luxury products crafted with diamonds and gold. The group's main  departments are marketing, finance and resources.
 At each period of the year, this famous group tries to analyze its business process in order to set new objectives for the following period .
 
 The different departments are trying to answer those questions:
@@ -16,7 +16,25 @@ The different departments are trying to answer those questions:
 #6- What is the main profile of customers for the store ? (according to customer base:gender , age , income,..) (dim_customers)
 
 Business process to analyze: Sales
+2. Data and resources Gatherin:
+     Dir: company_internal_database
+     Dir: external_data_files
 
+3. Dimensional Modeling:
+     Dir: dimensional_modeling
+
+4. ETL process:
+     Extraction and Loading details are in the report
+     Transformation dir: TALEND_transformations
+
+5. Data warehouse Ceation and design:
+     Dir: DWH_data_files
+
+6. Analysis and reporting:
+   Analysis details are included in the report.
+   Dir: analysis_results
+
+IMPORTANT:
 =====> you can find all details of the project in the GOLD DEALER PDF .
 
 
