@@ -1,1 +1,6 @@
-all data available in the dwh
+This directory contains : 
+- all data of Dimensions and Fact table available in the dwh (CSV)
+- Data Warehouse Creation files (SQL)
+- ROLAP model (dmd)
+
+==> all the data warehouse creation is made in SQL DEVELOPER (Oracle)
